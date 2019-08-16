@@ -1,7 +1,7 @@
 <template>
 <!-- 根组件 -->
   <div id="app">
-  666
+  <el-button type='primary'>666</el-button>
   </div>
 </template>
 
