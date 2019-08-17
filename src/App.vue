@@ -1,7 +1,8 @@
 <template>
 <!-- 根组件 -->
   <div id="app">
-  <el-button type='primary'>666</el-button>
+    <!-- 定义一级路由的出口(一级路由对应的组件渲染的位置) -->
+    <router-view>666</router-view>
   </div>
 </template>
 

@@ -11,6 +11,13 @@ import 'element-ui/lib/theme-chalk/index.css'
 // 导vue-router插件模块;
 import router from '@/router'
 
+// 导入less预编译模块;
+import '@/styles/index.less'
+
+// 导入axios模块;
+import axios from 'axios'
+Vue.prototype.$http = axios
+
 Vue.config.productionTip = false
 // 使用element-ui插件
 Vue.use(ElementUI)
