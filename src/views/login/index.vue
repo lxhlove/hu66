@@ -45,8 +45,8 @@ export default {
     return {
       loginForm: {
         // 字段参考接口文档;
-        mobile: '',
-        code: ''
+        mobile: '13911111111',
+        code: '246810'
       },
       // 定义校验规则对象;
       loginRules: {
@@ -79,6 +79,8 @@ export default {
               // res是响应对象,响应数据属于响应主体
               // console.log(res.data)
               // 请求成功;
+              // 请求成功,储存用户信息;
+
               this.$router.push('/')
             })
             .catch(() => {
